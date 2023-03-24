@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _isupper.c - Check if a lettre is supper
- * 0x: The number to be checkout
- * Return: 1 for supper letter of 0 for any else
+ * _isupper - Check if c is upper
+ *
+ * c: it is an input for alphabet
+ *
+ * Return: 1 for upper letter. 0 if not
  */
 
-int _isupper(int x)
+int _isupper(int c)
 {
-if ( x >= 65 && x <= 90)
-return(1);
-else 
-return(0);
+if (c >= 65 && c <= 90)
+return (1);
+else
+return (0);
 }
